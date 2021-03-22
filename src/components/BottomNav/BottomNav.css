@@ -1,0 +1,65 @@
+@media screen and (max-width: 768px) {
+	.bottom-nav {
+		position: fixed;
+		bottom: 0;
+		background-color: rgb(59, 59, 59);
+		color: rgb(238, 238, 238);
+		width: 100%;
+		display: flex !important;
+		justify-content: space-around;
+		align-items: center;
+		z-index: 1000;
+	}
+	.bottom-nav-icon {
+		font-size: 18px;
+		padding: 10px 0;
+		width: 10%;
+		position: relative;
+		box-sizing: border-box;
+	}
+	.bottom-nav-icon.active {
+		border-bottom: 5px solid;
+	}
+	.bottom-nav-icon a {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		color: inherit;
+	}
+	.bottom-nav-icon .inventory-count {
+		background-color: rgb(212, 21, 21);
+		height: 15px;
+		width: 15px;
+		color: white;
+		font-weight: 500;
+		position: absolute;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		font-size: 10px;
+		top: 3px;
+		left: 43px;
+	}
+	.bottom-nav-icon p {
+		font-size: 0.8rem;
+		font-weight: 500;
+		margin: 3px 0 0;
+	}
+}
+@media screen and (max-width: 425px) {
+	.bottom-nav-icon .inventory-count {
+		left: 25px;
+		top: 3px;
+	}
+}
+@media screen and (max-width: 375px) {
+	.bottom-nav-icon .inventory-count {
+		left: 23px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.bottom-nav-icon .inventory-count {
+		left: 20px;
+	}
+}
