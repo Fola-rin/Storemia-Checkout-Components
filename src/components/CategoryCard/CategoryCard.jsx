@@ -17,7 +17,12 @@ const CategoryCard = (props) => {
 			)}
 			<div className="category-card-img">
 				<a href="./store-items/store-item.html"></a>
-				<img src={productImg} alt="product image" />
+				<img
+					src={
+						"https://pbs.twimg.com/media/Exu0vEKWQAES_5d?format=jpg&name=large"
+					}
+					alt="product image"
+				/>
 			</div>
 			<div className="category-card-details">
 				<p className="name">{props.name}</p>

@@ -21,7 +21,8 @@
 	border-radius: 50px;
 }
 .checkout-link a:hover,
-.clear-cart-wrapper:hover {
+.clear-cart-wrapper:hover,
+.checkout-link button:hover {
 	background-color: rgb(59, 59, 59);
 	color: white;
 }
@@ -104,12 +105,15 @@
 	display: flex;
 	justify-content: flex-end;
 }
-.checkout-link a {
+.checkout-link button {
 	color: rgb(59, 59, 59);
 	border: 0.5px solid rgb(59, 59, 59);
 	font-weight: 500;
 	border-radius: 10px;
 	padding: 15px;
+	background-color: transparent;
+	font-size: inherit;
+	cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
@@ -192,7 +196,8 @@
 		font-size: 14px;
 		font-weight: 600;
 	}
-	.checkout-link a {
+	.checkout-link a,
+	.checkout-link button {
 		font-size: 14px;
 	}
 }
@@ -241,7 +246,8 @@
 		margin-top: 30px;
 		border-radius: 8px;
 	}
-	.checkout-link a {
+	.checkout-link a,
+	.checkout-link button {
 		padding: 10px;
 	}
 }

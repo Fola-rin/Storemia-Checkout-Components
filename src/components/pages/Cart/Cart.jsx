@@ -40,9 +40,9 @@ const Cart = () => {
 						<h3>₦10000000</h3>
 					</div>
 					<div class="checkout-link">
-						<a href="/checkout.html">
+						<button>
 							Continue to checkout <FontAwesomeIcon icon="arrow-right" />
-						</a>
+						</button>
 					</div>
 				</div>
 			</div>

@@ -26,9 +26,14 @@ const Store = (props) => {
 						<NavCategory
 							active="active"
 							name="All Items"
-							imageSrc="https://eliansplace.storemia.com/UI/images/onlineshop.jpg"
+							imageSrc="https://pbs.twimg.com/media/Exu0vEKWQAES_5d?format=jpg&name=large"
 						/>
-						<NavCategory name="Item Type 1" imageSrc={imgSrc} />
+						<NavCategory
+							name="Item Type 1"
+							imageSrc={
+								"https://api.storemia.com/storemiaapi/storage/app/public/itemsimages/1616181983334/9bebb2c1-703b-4ca4-8e98-dc45af852188.JPEG"
+							}
+						/>
 						<NavCategory name="Item Type 1" imageSrc={imgSrc} />
 						<NavCategory name="Item Type 1" imageSrc={imgSrc} />
 					</div>

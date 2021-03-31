@@ -12,29 +12,29 @@ const BottomNav = (props) => {
 			<div className={`bottom-nav-icon ${props.homeActive}`}>
 				{" "}
 				{/* The active class is here currently */}
-				<a href="/shop.html">
+				<button>
 					<FontAwesomeIcon icon="home" />
 					<p>Home</p>
-				</a>
+				</button>
 			</div>
 			<div className={`bottom-nav-icon ${props.storeActive}`}>
-				<a href="/store-items/all-categories.html">
+				<button>
 					<FontAwesomeIcon icon="store" />
 					<p>Store</p>
-				</a>
+				</button>
 			</div>
 			<div className={`bottom-nav-icon ${props.cartActive}`}>
 				<span className="inventory-count">3</span>
-				<a href="/cart.html">
+				<button>
 					<FontAwesomeIcon icon="shopping-cart" />
 					<p>Cart</p>
-				</a>
+				</button>
 			</div>
 			<div className={`bottom-nav-icon ${props.contactActive}`}>
-				<a href="contact.html">
+				<button>
 					<FontAwesomeIcon icon="phone-alt" />
 					<p>Contact</p>
-				</a>
+				</button>
 			</div>
 		</div>
 	);

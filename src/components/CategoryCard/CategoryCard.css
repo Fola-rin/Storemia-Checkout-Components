@@ -108,8 +108,8 @@
 	.category-card-details {
 		font-size: 14px;
 		margin-top: 5px;
-		display: revert;
-		text-align: left;
+		/* display: revert;
+		text-align: left; */
 	}
 	.discount-price {
 		margin-bottom: 15px;

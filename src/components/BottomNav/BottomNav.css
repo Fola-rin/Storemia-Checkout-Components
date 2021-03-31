@@ -16,15 +16,24 @@
 		width: 10%;
 		position: relative;
 		box-sizing: border-box;
+		/* New styles */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		box-sizing: border-box;
 	}
 	.bottom-nav-icon.active {
 		border-bottom: 5px solid;
 	}
-	.bottom-nav-icon a {
+	.bottom-nav-icon button {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		color: inherit;
+		/* New styles */
+		border: 0;
+		background-color: transparent;
+		font-size: 18px;
 	}
 	.bottom-nav-icon .inventory-count {
 		background-color: rgb(212, 21, 21);

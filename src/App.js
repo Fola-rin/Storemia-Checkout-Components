@@ -36,8 +36,8 @@ library.add(
 function App() {
 	return (
 		<div className="App">
-			{/* <Header backbtn="true" /> */}
-			<Header />
+			<Header backbtn="true" />
+			{/* <Header /> */}
 			{/* <Home /> */}
 			{/* <StoreItem /> */}
 			{/* <Store /> */}
